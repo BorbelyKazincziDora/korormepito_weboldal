@@ -1,0 +1,16 @@
+.app__container {
+  margin-top: 56px;
+  padding: 24px;
+}
+body{
+  margin: 0;
+  font-family: system-ui;
+}
+.hero {
+  background-image: url("../assets/pictures/expocosmetica-1324903_1280.jpg");
+  background-size: cover;
+
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
