@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import '@radix-ui/themes/styles.css';
+
 
 @Component({
   selector: 'app-root',

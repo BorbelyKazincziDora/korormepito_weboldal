@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+/*styles.css*/
+.josefin-sans-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Válaszd ki az ésszerűségnek megfelelő betűsúlyt */
+  font-style: normal;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  min-height: 100vh;
+  background-color: #FFFF00;
+  background-image: url("../src/assets/pictures/1917999.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*@media (prefers-color-scheme: dark) {*/
+
+/*}*/

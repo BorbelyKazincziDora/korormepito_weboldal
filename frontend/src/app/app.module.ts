@@ -2,15 +2,13 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+// import '@radix-ui/themes/styles.css';
 import { HomePageComponent } from './components/home-page/home-page.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import '@radix-ui/themes/styles.css';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomePageComponent,
-    NavbarComponent
   ],
   imports: [
     BrowserModule,

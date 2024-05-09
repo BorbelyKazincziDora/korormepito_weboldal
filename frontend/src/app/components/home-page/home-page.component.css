@@ -1,0 +1,67 @@
+/*home-page.component.css*/
+
+/*top-bar*/
+.top-contacts {
+  width: 100%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  margin-right: auto; /* Eltolja a jobb oldalra */
+}
+
+.contact-info i {
+  margin-right: 5px;
+}
+
+.social-links {
+  margin-right: 0;
+  display: flex;
+  flex-grow: 1; /* Az ikonok kitöltik a rendelkezésre álló helyet */
+  justify-content: flex-end; /* Az ikonok jobb oldalra kerülnek */
+}
+
+.social-links a {
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+/*navbar*/
+#nav-items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/*@media (prefers-color-scheme: dark) and (prefers-reduced-motion: no-preference) {*/
+#nav-items li a {
+  margin-right: 5px;
+  margin-left: 20px;
+  color: #2c0707;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px #c21212;
+}
+
+#nav-items li:first-child {
+  margin-right: auto; /* Az első menüpont balra lesz igazítva */
+  font-size: 50px;
+  margin-left: 200px;
+}
+
+#nav-items li:first-child a#logo {
+  color: #3b0423 !important;
+  text-shadow: 2px 2px 2px #5e0638 !important;
+}
+
+#nav-items li a:hover {
+  color: #570c31;
+  text-shadow: 2px 2px 2px #810b45;
+}
