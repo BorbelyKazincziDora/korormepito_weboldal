@@ -47,7 +47,7 @@
   margin-left: 20px;
   color: #2c0707;
   text-decoration: none;
-  text-shadow: 2px 2px 2px #c21212;
+  text-shadow: 2px 2px 2px #dd5c5c;
 }
 
 #nav-items li:first-child {
@@ -64,4 +64,17 @@
 #nav-items li a:hover {
   color: #570c31;
   text-shadow: 2px 2px 2px #810b45;
+}
+
+#motto {
+  font-size: 35px;
+  color: #2c0707;
+  padding-top: 215px;
+  padding-left: 250px;
+}
+
+#second-line {
+  padding-left: 100px;
+  color: #2c0707;
+
 }
