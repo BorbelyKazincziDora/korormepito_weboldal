@@ -1,8 +1,9 @@
 /*styles.css*/
+
 .josefin-sans-title {
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400; /* Válaszd ki az ésszerűségnek megfelelő betűsúlyt */
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -15,6 +16,3 @@ body {
   background-attachment: fixed;
 }
 
-/*@media (prefers-color-scheme: dark) {*/
-
-/*}*/

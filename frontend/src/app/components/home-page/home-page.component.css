@@ -15,7 +15,7 @@
 .contact-info {
   display: flex;
   align-items: center;
-  margin-right: auto; /* Eltolja a jobb oldalra */
+  margin-right: auto;
 }
 
 .contact-info i {
@@ -25,8 +25,8 @@
 .social-links {
   margin-right: 0;
   display: flex;
-  flex-grow: 1; /* Az ikonok kitöltik a rendelkezésre álló helyet */
-  justify-content: flex-end; /* Az ikonok jobb oldalra kerülnek */
+  flex-grow: 1;
+  justify-content: flex-end;
 }
 
 .social-links a {
@@ -35,46 +35,49 @@
 }
 
 /*navbar*/
-#nav-items {
-  display: flex;
+.navbar {
+  border: 1px solid #808080;
+  height: 4em;
+}
+
+#navbarTogglerDemo02 {
   justify-content: flex-end;
   align-items: center;
 }
 
-/*@media (prefers-color-scheme: dark) and (prefers-reduced-motion: no-preference) {*/
-#nav-items li a {
+#navbarTogglerDemo02 a {
   margin-right: 5px;
   margin-left: 20px;
+  font-size: 20px;
   color: #2c0707;
   text-decoration: none;
   text-shadow: 2px 2px 2px #dd5c5c;
 }
 
-#nav-items li:first-child {
-  margin-right: auto; /* Az első menüpont balra lesz igazítva */
-  font-size: 50px;
-  margin-left: 200px;
-}
-
-#nav-items li:first-child a#logo {
-  color: #3b0423 !important;
-  text-shadow: 2px 2px 2px #5e0638 !important;
-}
-
-#nav-items li a:hover {
+#navbarTogglerDemo02 ul li a:hover {
   color: #570c31;
   text-shadow: 2px 2px 2px #810b45;
 }
 
+.navbar-brand {
+  margin-right: auto;
+  font-size: 50px;
+  margin-left: 200px;
+  color: #3b0423 !important;
+  text-shadow: 2px 2px 2px #5e0638 !important;
+}
+
+/*motto - middle of the page*/
 #motto {
   font-size: 35px;
-  color: #2c0707;
+  color: #3b0423 !important;
+  text-shadow: 2px 2px 2px #5e0638 !important;
   padding-top: 215px;
   padding-left: 250px;
 }
 
 #second-line {
   padding-left: 100px;
-  color: #2c0707;
-
+  color: #3b0423 !important;
+  text-shadow: 2px 2px 2px #5e0638 !important;
 }
