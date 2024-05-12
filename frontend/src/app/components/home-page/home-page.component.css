@@ -89,16 +89,18 @@ nav {
   text-shadow: 2px 2px 2px #810b45;
 }
 
+
 .navbar-brand {
+  margin-top: 15px;
   margin-right: auto;
-  font-size: 50px;
   margin-left: 200px;
+  font-size: 50px;
   color: #3b0423 !important;
   text-shadow: 2px 2px 2px #5e0638 !important;
 }
-
-.my-list-item {
+#my-list-item {
   list-style-type: none;
+
 }
 
 /*motto*/
@@ -106,13 +108,13 @@ nav {
   /*font-size: 50px;*/
   font-size: 4.6296vh;
   color: #3b0423 !important;
-  text-shadow: 2px 2px 2px #5e0638 !important;
-  padding-top: 215px;
+  text-shadow: 2px 2px 2px #dd5c5c !important;
+  padding-top: 250px;
   text-align: center;
 }
 
 #second-line {
   color: #3b0423 !important;
-  text-shadow: 2px 2px 2px #5e0638 !important;
+  text-shadow: 2px 2px 2px #dd5c5c !important;
   text-align: center;
 }
