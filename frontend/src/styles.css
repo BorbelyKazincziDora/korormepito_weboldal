@@ -1,18 +1,22 @@
 /*styles.css*/
 
-.josefin-sans-title {
-  font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-body {
-  font-family: "Nunito", sans-serif;
+body, html {
   min-height: 100vh;
-  background-color: #FFFF00;
   background-image: url("../src/assets/pictures/1917999.jpg");
   background-size: cover;
   background-attachment: fixed;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
+
+#motto, #second-line {
+  font-family: "Satisfy", cursive;
+  font-weight: 250;
+  font-style: normal;
+}
+
 
