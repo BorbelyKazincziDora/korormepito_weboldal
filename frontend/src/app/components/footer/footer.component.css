@@ -9,3 +9,8 @@
   text-shadow: 2px 2px 2px #dd5c5c !important;
 
 }
+
+.border-bottom {
+  border-bottom: var(--bs-border-width) var(--bs-border-style) #333333 !important;
+
+}
