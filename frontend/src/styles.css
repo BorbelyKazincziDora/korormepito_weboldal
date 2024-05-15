@@ -13,10 +13,12 @@ body, html {
   box-sizing: border-box;
 }
 
-#motto, #second-line, #my-list-item{
+#motto, #second-line, .my-list-item{
   font-family: "Satisfy", cursive;
   font-weight: 250;
   font-style: normal;
 }
 
-
+.page {
+  padding: 0 5px;
+}

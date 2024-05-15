@@ -1,0 +1,11 @@
+/*footer.component.css*/
+#footer {
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #3b0423 !important;
+  text-shadow: 2px 2px 2px #dd5c5c !important;
+
+}
