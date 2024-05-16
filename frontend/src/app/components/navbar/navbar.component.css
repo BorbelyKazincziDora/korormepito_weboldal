@@ -90,7 +90,6 @@ nav {
   text-shadow: 2px 2px 2px #810b45;
 }
 
-
 .navbar-brand {
   margin-top: 15px;
   margin-right: auto;
@@ -99,8 +98,8 @@ nav {
   color: #3b0423 !important;
   text-shadow: 2px 2px 2px #5e0638 !important;
 }
+
 .my-list-item, .twitter, .facebook, .google-plus, .linkedin, .instagram {
   list-style-type: none;
   text-decoration: none;
 }
-

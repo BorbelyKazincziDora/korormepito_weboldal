@@ -1,1 +1,83 @@
 /*contact.component.css*/
+.page {
+  backdrop-filter: blur(10px);
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  padding: 25px;
+  color: #2c0707;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 5em;
+}
+
+.title h1 {
+  font-size: 4em;
+  font-weight: 400;
+  color: #2c0707;
+}
+
+.check-in {
+  position: relative;
+  padding-bottom: 4em;
+}
+
+.check-in h3 {
+  font-size: 3em;
+  font-weight: 300;
+  color: #2c0707;
+}
+
+.contact {
+  padding-bottom: 3em;
+}
+
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.column p {
+  text-align: left;
+}
+
+.email, .tel, .address, .opening-hours{
+  display: flex;
+}
+
+.fa-envelope, .fa-phone, .fa-map, .fa-info-circle {
+  font-size: 3em;
+  padding-right: 0.5em;
+}
+
+.fa-info-circle {
+  display: flex;
+}
+
+.contact-type {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.opening-hours {
+  display: flex;
+}
+
+.opening-hours .day,
+.opening-hours .time {
+  display: inline-block;
+}
+
+.day {
+  display: table-column;
+}
+
+.city, .street {
+  margin-bottom: 1px;
+}
